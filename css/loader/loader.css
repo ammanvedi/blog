@@ -1,0 +1,84 @@
+.topBrick {
+
+    background-image: url( "../img/top-brick.png" );
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+
+
+}
+
+.middleBrick {
+
+    background-image: url( "../img/middle-brick.png" );
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 0.5s;
+
+}
+
+.bottomBrick {
+
+    background-image: url( "../img/bottom-brick.png" );
+    -webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+    animation-delay: 0s;
+
+}
+
+.bottomBrickInPos {
+
+    top: 43px;
+
+}
+
+.bottomBrickOutPos {
+
+    top: -1000px;
+
+}
+
+
+.middleBrickInPos {
+
+    top: 21px;
+
+}
+
+.middleBrickOutPos {
+
+    top: -1000px;
+
+}
+
+.topBrickInPos {
+
+}
+
+.topBrickOutPos {
+
+    top: -1000px;
+
+}
+
+
+.loaderBrick {
+
+    height: 50px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.0;
+}
+
+.bricks {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    top: 45%;
+}
+
+.loaderWindow {
+
+    position: absolute;
+
+}

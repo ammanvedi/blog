@@ -1,0 +1,24 @@
+{
+  "name": "plog",
+  "version": "0.0.1",
+  "description": "blog ",
+  "main": "gulp webserver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amman Vedi <amman.vedi@gmail.com> (https://github.com/ammanvedi)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-batch": "^1.0.5",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "*",
+    "gulp-file-include": "*",
+    "gulp-foreach": "^0.1.0",
+    "gulp-modify": "^0.1.1",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "*",
+    "run-sequence": "^1.1.5",
+    "gulp-uglify": "1.5.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "description": "simple blogging site",
+  "main": "gulp webserver",
+  "authors": [
+    "Amman Vedi <amman.vedi@gmail.com> (https://github.com/ammanvedi)"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#~2.2.1",
+    "grid": "https://github.com/ThisIsDallas/Simple-Grid.git"
+  }
+}

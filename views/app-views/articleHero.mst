@@ -1,0 +1,13 @@
+<div class="header hero ">
+    <div class="grid">
+        <div class="col-2-12"></div>
+        <div class="col-8-12">
+            <h1>
+                {{#items}}
+                    {{title}}
+                {{/items}}
+            </h1>
+        </div>
+        <div class="col-2-12"></div>
+    </div>
+</div>

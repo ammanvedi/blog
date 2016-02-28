@@ -1,0 +1,39 @@
+
+
+body {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    height: auto;
+}
+
+/* mobile */
+@media only screen and (min-device-width: 480px) {
+    h1 {
+        font-size: 90px !important;
+    }
+
+    .articleText {
+        font-size: 16px;
+    }
+
+}
+/* desktop */
+@media only screen and (min-device-width: 768px) {
+    h1 {
+        font-size: 70px !important;
+    }
+
+    .articleText {
+        font-size: 20px;
+    }
+
+}
+
+h1 {
+    color: #3d1e37;
+}
+
+.articleText {
+    line-height: 180%;
+    font-weight: 100;
+}
